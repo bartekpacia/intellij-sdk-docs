@@ -1,4 +1,4 @@
-<!-- Copyright 2000-2025 JetBrains s.r.o. and other contributors. Use of this source code is governed by the Apache 2.0 license that can be found in the LICENSE file. -->
+<!-- Copyright 2000-2026 JetBrains s.r.o. and other contributors. Use of this source code is governed by the Apache 2.0 license that can be found in the LICENSE file. -->
 
 # Module
 
@@ -17,7 +17,7 @@ Modules include such things as source code, build scripts, unit tests, deploymen
 
 ### Content Roots
 
-A content root ([`ContentEntry`](%gh-ic%/platform/projectModel-api/src/com/intellij/openapi/roots/ContentEntry.java)) is a directory on disk whose files belong to the module (source code, resources, etc.).
+A content root ([`ContentEntry`](%gh-ic%/platform/projectModel-api/src/com/intellij/openapi/roots/ContentEntry.java)) is a directory whose files belong to the module (source code, resources, etc.).
 A content root defines the filesystem boundary for the module — only files under a content root are considered part of the module.
 Each directory can belong to one and only one module; it is not possible to share a content root between multiple modules.
 A module may have multiple content roots.
